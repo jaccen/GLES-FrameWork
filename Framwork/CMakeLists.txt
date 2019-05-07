@@ -47,6 +47,7 @@ elseif(APPLE)
   SET(APPLE_LIBS ${APPLE_LIBS} ${GLFW3_LIBRARY} )
   set(LIBS ${LIBS} ${APPLE_LIBS})
 else()
+
   set(LIBS )
 endif(WIN32)
 
@@ -54,9 +55,6 @@ endif(WIN32)
 configure_file(configuration/root_directory.h.in configuration/root_directory.h)
 include_directories(${CMAKE_BINARY_DIR}/configuration)
 
-# first create relevant static libraries requried for other projects
-add_library(STB_IMAGE "src/stb_image.cpp")
-set(LIBS ${LIBS} STB_IMAGE)
 
 add_library(GLAD "src/glad.c")
 set(LIBS ${LIBS} GLAD)
@@ -69,6 +67,8 @@ endmacro()
         file(GLOB SOURCE
             "src/*.h"
             "src/*.cpp"
+"src/Common/*.h"
+"src/Common/*.cpp"
             "src/*.vs"
             "src/*.fs"
             "src/*.gs"
