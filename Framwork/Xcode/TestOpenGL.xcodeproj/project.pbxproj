@@ -1,0 +1,1142 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0DFB92E4C3524E1392BF29B5 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1A10FB7B14264A7F96FC652F /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				EC402A6678CC4A959358ECE5 /* CMake Rules */,
+			);
+			dependencies = (
+				A5910EA32A3B4874AC59E87C /* PBXTargetDependency */,
+				E364063BA8E44298992C6E55 /* PBXTargetDependency */,
+				38932FA581094C9B84FDF067 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		628BC32B960A490C9ECA3CCB /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 727872C3AB724A7CB27BAA1B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				85DBAB1E732347C0BD5C5C22 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		04F7ED82B0244F5DB2C7F32E /* engine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 034B623945AC40E89DAC2A49 /* engine.cpp */; };
+		15748DB5959C40A88F0ADBC1 /* platform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FD460512C92D4F4EAF85EFF4 /* platform.cpp */; };
+		377DD42A232B489D85D696F9 /* entityRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F563A11C81514470A3AFA7B3 /* entityRenderer.cpp */; };
+		3D69D15ACB4347DD80DBEB21 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 3923EF45360848A8AE7BC9E7 /* glad.c */; };
+		3E53D23E254745CB89B5C056 /* sceneManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 805DF49E482145EEAD4F4B9C /* sceneManager.cpp */; };
+		3F2974F95A704EDF826B29C1 /* timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B710D02323814879B2849440 /* timer.cpp */; };
+		41AEE416353E4578BB7B5E26 /* texture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57A37CDF076E435C8770EAF0 /* texture.cpp */; };
+		461A56E6E5FB40BAA132CD0B /* gameLoop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAB69A7F3431488B8CD111EA /* gameLoop.cpp */; };
+		48F9FBEEABE94C87B694A4C5 /* shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D2132F0A4D184C579B2C4A45 /* shader.cpp */; };
+		492214952AE1452EBAF96EAA /* profiler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E6C953D5CCC24105A438D6C9 /* profiler.cpp */; };
+		492FDBBB4FD140BF89DFDAD2 /* clock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C399F66184A8443AB2E99BE6 /* clock.cpp */; };
+		51D715B11F7F4A028E448C6A /* shaderManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95EC3B8F72FA4A428F7FBCA7 /* shaderManager.cpp */; };
+		53E5701C1FD94C5A93B3F972 /* entity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BF3FC8A2A114DC4811A8AA2 /* entity.cpp */; };
+		56B552D97D7A4B38950CA05B /* resoucemanager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C37CB08164B4477798FA8627 /* resoucemanager.cpp */; };
+		5A5D434723B386D0007FBF0A /* Application.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A5D434523B386D0007FBF0A /* Application.cpp */; };
+		74BEBA3C49884B83BCCB10C9 /* camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A126FC612114C33BA492DD4 /* camera.cpp */; };
+		78834F2D1F114D9F892E7159 /* mesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BC1DCD5ADFDB4BF492ABC735 /* mesh.cpp */; };
+		8AD3754046C1444E962CACF3 /* basicMaterial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 802C36E273B84188B4FC1941 /* basicMaterial.cpp */; };
+		953F2CF673704B0EB39ED735 /* hello_triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4402FA7975E7436DB3FB4EB6 /* hello_triangle.cpp */; };
+		964C8BB6A2E24F5ABE68A4AA /* scene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA9D95C9167A45F38E86D639 /* scene.cpp */; };
+		9AC4BE95C20D4724859C4CCE /* renderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CAB056E863D44FDB8B94FB2 /* renderer.cpp */; };
+		B61A853A92044C9D87D38E17 /* node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C0DF84A60AC493F86B62A59 /* node.cpp */; };
+		C27D592D15FA43C1A917027E /* math_inc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D42261508AB4AC8B7745697 /* math_inc.cpp */; };
+		DD61A84F88D1421CBE789B18 /* manager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F46AC21C56E458093691399 /* manager.cpp */; };
+		DDD42E1391C2440C8CC590F6 /* material.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92B3EA1E07174AFA965BD13D /* material.cpp */; };
+		E0D358B2503E476181D94B03 /* game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 865983EE2CD64E0F9402519C /* game.cpp */; };
+		E626A7877DDA4DE1A97A0774 /* light.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F0F91B01F744ED984A7ECCD /* light.cpp */; };
+		F6CC536D9F58455E936F410C /* quadTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A76EA2608D0D4FCEA29295CA /* quadTree.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FD254CB537E470F92BCB956 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D354311403514FD9885260DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 628BC32B960A490C9ECA3CCB;
+			remoteInfo = ZERO_CHECK;
+		};
+		29167AB132574195839995DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D354311403514FD9885260DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90A2C8F473094D9E9D986C62;
+			remoteInfo = Engine;
+		};
+		4332E0E392AB4F3FA1F6BD53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D354311403514FD9885260DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37D9E776A0B6401D80066950;
+			remoteInfo = GLAD;
+		};
+		4C540B8A6B8144739E58A293 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D354311403514FD9885260DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 628BC32B960A490C9ECA3CCB;
+			remoteInfo = ZERO_CHECK;
+		};
+		794E85711D164014A4E269D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D354311403514FD9885260DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 628BC32B960A490C9ECA3CCB;
+			remoteInfo = ZERO_CHECK;
+		};
+		7C919E1B3E6A4AF49FC9DF1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D354311403514FD9885260DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37D9E776A0B6401D80066950;
+			remoteInfo = GLAD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		034B623945AC40E89DAC2A49 /* engine.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = engine.cpp; path = src/Common/engine.cpp; sourceTree = SOURCE_ROOT; };
+		1151B68D40CB40AD990EA954 /* platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = platform.h; path = src/Common/platform.h; sourceTree = SOURCE_ROOT; };
+		11C417318FDC49648C898A7D /* entityComponent.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = entityComponent.h; path = src/Common/entityComponent.h; sourceTree = SOURCE_ROOT; };
+		15F326AA3E7649EE86EC4BEB /* profiler.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = profiler.h; path = src/Common/profiler.h; sourceTree = SOURCE_ROOT; };
+		17247BF80C0A4260AB51677D /* clock.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = clock.h; path = src/Common/clock.h; sourceTree = SOURCE_ROOT; };
+		1A4B0B6ABADA43E9A3C4731C /* Engine */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = Engine; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D42261508AB4AC8B7745697 /* math_inc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = math_inc.cpp; path = src/Common/math_inc.cpp; sourceTree = SOURCE_ROOT; };
+		1EBF5E2609744FC59A893A61 /* manager.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = manager.h; path = src/Common/manager.h; sourceTree = SOURCE_ROOT; };
+		1F30531821504CEDB7C20FF5 /* util.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = util.h; path = src/Common/util.h; sourceTree = SOURCE_ROOT; };
+		226CDBC558F04D269F5B43C4 /* engine.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = engine.h; path = src/Common/engine.h; sourceTree = SOURCE_ROOT; };
+		244C822C5B234AB7B8CAF6A6 /* game.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = game.h; path = src/Common/game.h; sourceTree = SOURCE_ROOT; };
+		2C2B7D703D5742849FC867E8 /* quadTree.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = quadTree.h; path = src/Common/quadTree.h; sourceTree = SOURCE_ROOT; };
+		2CD62D6F575B4839B20BDDB8 /* math_inc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = math_inc.h; path = src/Common/math_inc.h; sourceTree = SOURCE_ROOT; };
+		3923EF45360848A8AE7BC9E7 /* glad.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = glad.c; path = src/glad.c; sourceTree = SOURCE_ROOT; };
+		3C0DF84A60AC493F86B62A59 /* node.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = node.cpp; path = src/Common/node.cpp; sourceTree = SOURCE_ROOT; };
+		42C40978D5A741859CD9954F /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4402FA7975E7436DB3FB4EB6 /* hello_triangle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hello_triangle.cpp; path = src/hello_triangle.cpp; sourceTree = SOURCE_ROOT; };
+		57A37CDF076E435C8770EAF0 /* texture.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = texture.cpp; path = src/Common/texture.cpp; sourceTree = SOURCE_ROOT; };
+		5A126FC612114C33BA492DD4 /* camera.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = camera.cpp; path = src/Common/camera.cpp; sourceTree = SOURCE_ROOT; };
+		5A5D434523B386D0007FBF0A /* Application.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Application.cpp; path = src/Common/Application.cpp; sourceTree = "<group>"; };
+		5A5D434623B386D0007FBF0A /* Application.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Application.hpp; path = src/Common/Application.hpp; sourceTree = "<group>"; };
+		5CE05B351F534A9386938A10 /* meshFactory.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = meshFactory.h; path = src/Common/meshFactory.h; sourceTree = SOURCE_ROOT; };
+		665EBFF9071C434F80910D9E /* libGLAD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libGLAD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C14708EC81E4F0E86793FB0 /* timer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = timer.h; path = src/Common/timer.h; sourceTree = SOURCE_ROOT; };
+		6CAB056E863D44FDB8B94FB2 /* renderer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = renderer.cpp; path = src/Common/renderer.cpp; sourceTree = SOURCE_ROOT; };
+		6E5B705524D4418A8579B9C4 /* camera.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = camera.h; path = src/Common/camera.h; sourceTree = SOURCE_ROOT; };
+		6F0F91B01F744ED984A7ECCD /* light.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = light.cpp; path = src/Common/light.cpp; sourceTree = SOURCE_ROOT; };
+		6F6811617C164BCA94676A7F /* application.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = application.h; path = src/Common/application.h; sourceTree = SOURCE_ROOT; };
+		6FAE79A14423476B83C5DD28 /* renderer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = renderer.h; path = src/Common/renderer.h; sourceTree = SOURCE_ROOT; };
+		7265334ADD9943529E639D7A /* playyuv.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = playyuv.h; path = src/Common/playyuv.h; sourceTree = SOURCE_ROOT; };
+		76E6E086328B43F4AB6F2FF1 /* resoucemanager.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = resoucemanager.h; path = src/Common/resoucemanager.h; sourceTree = SOURCE_ROOT; };
+		778F62991BC54E609217502E /* meshRenderer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = meshRenderer.h; path = src/Common/meshRenderer.h; sourceTree = SOURCE_ROOT; };
+		795079A8D47A45D098A4469D /* transform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = transform.h; path = src/Common/transform.h; sourceTree = SOURCE_ROOT; };
+		7F251FB4A149418BB1BE0429 /* gameLoop.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = gameLoop.h; path = src/Common/gameLoop.h; sourceTree = SOURCE_ROOT; };
+		802C36E273B84188B4FC1941 /* basicMaterial.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = basicMaterial.cpp; path = src/Common/basicMaterial.cpp; sourceTree = SOURCE_ROOT; };
+		805DF49E482145EEAD4F4B9C /* sceneManager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sceneManager.cpp; path = src/Common/sceneManager.cpp; sourceTree = SOURCE_ROOT; };
+		865983EE2CD64E0F9402519C /* game.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = game.cpp; path = src/Common/game.cpp; sourceTree = SOURCE_ROOT; };
+		8C059FF611B247F896B44936 /* material.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = material.h; path = src/Common/material.h; sourceTree = SOURCE_ROOT; };
+		92B3EA1E07174AFA965BD13D /* material.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = material.cpp; path = src/Common/material.cpp; sourceTree = SOURCE_ROOT; };
+		95EC3B8F72FA4A428F7FBCA7 /* shaderManager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = shaderManager.cpp; path = src/Common/shaderManager.cpp; sourceTree = SOURCE_ROOT; };
+		9BF3FC8A2A114DC4811A8AA2 /* entity.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = entity.cpp; path = src/Common/entity.cpp; sourceTree = SOURCE_ROOT; };
+		9F46AC21C56E458093691399 /* manager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = manager.cpp; path = src/Common/manager.cpp; sourceTree = SOURCE_ROOT; };
+		A76EA2608D0D4FCEA29295CA /* quadTree.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = quadTree.cpp; path = src/Common/quadTree.cpp; sourceTree = SOURCE_ROOT; };
+		B041E2CA851B4F41BD45B2EC /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B710D02323814879B2849440 /* timer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = timer.cpp; path = src/Common/timer.cpp; sourceTree = SOURCE_ROOT; };
+		B76996FAB73E46C7AE425544 /* primitive.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = primitive.h; path = src/Common/primitive.h; sourceTree = SOURCE_ROOT; };
+		B8AAE88F9B6F439CB36596C3 /* entity.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = entity.h; path = src/Common/entity.h; sourceTree = SOURCE_ROOT; };
+		BADCF3720F9E4F908D1B0DB6 /* shadermanager.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = shadermanager.h; path = src/Common/shadermanager.h; sourceTree = SOURCE_ROOT; };
+		BC1DCD5ADFDB4BF492ABC735 /* mesh.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mesh.cpp; path = src/Common/mesh.cpp; sourceTree = SOURCE_ROOT; };
+		C016746F534B4AC19B9CF3ED /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C37CB08164B4477798FA8627 /* resoucemanager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = resoucemanager.cpp; path = src/Common/resoucemanager.cpp; sourceTree = SOURCE_ROOT; };
+		C399F66184A8443AB2E99BE6 /* clock.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = clock.cpp; path = src/Common/clock.cpp; sourceTree = SOURCE_ROOT; };
+		C7F1CB5E4C1843F1B8B54DFD /* entityRenderer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = entityRenderer.h; path = src/Common/entityRenderer.h; sourceTree = SOURCE_ROOT; };
+		D2132F0A4D184C579B2C4A45 /* shader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = shader.cpp; path = src/Common/shader.cpp; sourceTree = SOURCE_ROOT; };
+		D75C13CAB776420382B907AF /* configure.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = configure.h; path = src/Common/configure.h; sourceTree = SOURCE_ROOT; };
+		D7E7EC0184D6405C89EECBA5 /* texture.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = texture.h; path = src/Common/texture.h; sourceTree = SOURCE_ROOT; };
+		DAB69A7F3431488B8CD111EA /* gameLoop.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gameLoop.cpp; path = src/Common/gameLoop.cpp; sourceTree = SOURCE_ROOT; };
+		E1A59A2C218B49CF9C4A9FD2 /* light.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = light.h; path = src/Common/light.h; sourceTree = SOURCE_ROOT; };
+		E2124C70301C4478979C63C1 /* shader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = shader.h; path = src/Common/shader.h; sourceTree = SOURCE_ROOT; };
+		E2E689C4BB82492F8F24DD2D /* mesh.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mesh.h; path = src/Common/mesh.h; sourceTree = SOURCE_ROOT; };
+		E4A83A58C6BC491ABFA701E8 /* basicmaterial.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = basicmaterial.h; path = src/Common/basicmaterial.h; sourceTree = SOURCE_ROOT; };
+		E4E20AB07FC8444F88DC19AF /* sceneManager.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sceneManager.h; path = src/Common/sceneManager.h; sourceTree = SOURCE_ROOT; };
+		E6C953D5CCC24105A438D6C9 /* profiler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = profiler.cpp; path = src/Common/profiler.cpp; sourceTree = SOURCE_ROOT; };
+		E825AAA379DA4326858FDEB2 /* stb_image.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stb_image.h; path = src/Common/stb_image.h; sourceTree = SOURCE_ROOT; };
+		EA9D95C9167A45F38E86D639 /* scene.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = scene.cpp; path = src/Common/scene.cpp; sourceTree = SOURCE_ROOT; };
+		F563A11C81514470A3AFA7B3 /* entityRenderer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = entityRenderer.cpp; path = src/Common/entityRenderer.cpp; sourceTree = SOURCE_ROOT; };
+		FD460512C92D4F4EAF85EFF4 /* platform.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = platform.cpp; path = src/Common/platform.cpp; sourceTree = SOURCE_ROOT; };
+		FFB69578822D497B98C0BA4E /* scene.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = scene.h; path = src/Common/scene.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		289B682803864CC28C9483E9 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				C2EE39F51D4C4372A4B90D4B /* Header Files */,
+				B130168C5D224F46B5AB9AC8 /* Source Files */,
+				42C40978D5A741859CD9954F /* CMakeLists.txt */,
+			);
+			name = Engine;
+			sourceTree = "<group>";
+		};
+		354216E2AF2B480486DB826D = {
+			isa = PBXGroup;
+			children = (
+				289B682803864CC28C9483E9 /* Engine */,
+				C84C431E2DBC45899C9F67D6 /* GLAD */,
+				A69E70EA5DFA47D788D73C7C /* ALL_BUILD */,
+				DFFF14650D3B49FF89902737 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A69E70EA5DFA47D788D73C7C /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				CD81669FB6FD489FA487AFB3 /* CMake Rules */,
+				B041E2CA851B4F41BD45B2EC /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		B130168C5D224F46B5AB9AC8 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				802C36E273B84188B4FC1941 /* basicMaterial.cpp */,
+				5A126FC612114C33BA492DD4 /* camera.cpp */,
+				C399F66184A8443AB2E99BE6 /* clock.cpp */,
+				034B623945AC40E89DAC2A49 /* engine.cpp */,
+				9BF3FC8A2A114DC4811A8AA2 /* entity.cpp */,
+				F563A11C81514470A3AFA7B3 /* entityRenderer.cpp */,
+				865983EE2CD64E0F9402519C /* game.cpp */,
+				DAB69A7F3431488B8CD111EA /* gameLoop.cpp */,
+				6F0F91B01F744ED984A7ECCD /* light.cpp */,
+				9F46AC21C56E458093691399 /* manager.cpp */,
+				92B3EA1E07174AFA965BD13D /* material.cpp */,
+				1D42261508AB4AC8B7745697 /* math_inc.cpp */,
+				BC1DCD5ADFDB4BF492ABC735 /* mesh.cpp */,
+				3C0DF84A60AC493F86B62A59 /* node.cpp */,
+				FD460512C92D4F4EAF85EFF4 /* platform.cpp */,
+				E6C953D5CCC24105A438D6C9 /* profiler.cpp */,
+				A76EA2608D0D4FCEA29295CA /* quadTree.cpp */,
+				6CAB056E863D44FDB8B94FB2 /* renderer.cpp */,
+				C37CB08164B4477798FA8627 /* resoucemanager.cpp */,
+				EA9D95C9167A45F38E86D639 /* scene.cpp */,
+				805DF49E482145EEAD4F4B9C /* sceneManager.cpp */,
+				D2132F0A4D184C579B2C4A45 /* shader.cpp */,
+				95EC3B8F72FA4A428F7FBCA7 /* shaderManager.cpp */,
+				57A37CDF076E435C8770EAF0 /* texture.cpp */,
+				B710D02323814879B2849440 /* timer.cpp */,
+				4402FA7975E7436DB3FB4EB6 /* hello_triangle.cpp */,
+				5A5D434523B386D0007FBF0A /* Application.cpp */,
+				5A5D434623B386D0007FBF0A /* Application.hpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		C2EE39F51D4C4372A4B90D4B /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F6811617C164BCA94676A7F /* application.h */,
+				E4A83A58C6BC491ABFA701E8 /* basicmaterial.h */,
+				6E5B705524D4418A8579B9C4 /* camera.h */,
+				17247BF80C0A4260AB51677D /* clock.h */,
+				D75C13CAB776420382B907AF /* configure.h */,
+				226CDBC558F04D269F5B43C4 /* engine.h */,
+				B8AAE88F9B6F439CB36596C3 /* entity.h */,
+				11C417318FDC49648C898A7D /* entityComponent.h */,
+				C7F1CB5E4C1843F1B8B54DFD /* entityRenderer.h */,
+				244C822C5B234AB7B8CAF6A6 /* game.h */,
+				7F251FB4A149418BB1BE0429 /* gameLoop.h */,
+				E1A59A2C218B49CF9C4A9FD2 /* light.h */,
+				1EBF5E2609744FC59A893A61 /* manager.h */,
+				8C059FF611B247F896B44936 /* material.h */,
+				2CD62D6F575B4839B20BDDB8 /* math_inc.h */,
+				E2E689C4BB82492F8F24DD2D /* mesh.h */,
+				5CE05B351F534A9386938A10 /* meshFactory.h */,
+				778F62991BC54E609217502E /* meshRenderer.h */,
+				1151B68D40CB40AD990EA954 /* platform.h */,
+				7265334ADD9943529E639D7A /* playyuv.h */,
+				B76996FAB73E46C7AE425544 /* primitive.h */,
+				15F326AA3E7649EE86EC4BEB /* profiler.h */,
+				2C2B7D703D5742849FC867E8 /* quadTree.h */,
+				6FAE79A14423476B83C5DD28 /* renderer.h */,
+				76E6E086328B43F4AB6F2FF1 /* resoucemanager.h */,
+				FFB69578822D497B98C0BA4E /* scene.h */,
+				E4E20AB07FC8444F88DC19AF /* sceneManager.h */,
+				E2124C70301C4478979C63C1 /* shader.h */,
+				BADCF3720F9E4F908D1B0DB6 /* shadermanager.h */,
+				E825AAA379DA4326858FDEB2 /* stb_image.h */,
+				D7E7EC0184D6405C89EECBA5 /* texture.h */,
+				6C14708EC81E4F0E86793FB0 /* timer.h */,
+				795079A8D47A45D098A4469D /* transform.h */,
+				1F30531821504CEDB7C20FF5 /* util.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		C84C431E2DBC45899C9F67D6 /* GLAD */ = {
+			isa = PBXGroup;
+			children = (
+				DA0E15710929414AA5683983 /* Source Files */,
+				C016746F534B4AC19B9CF3ED /* CMakeLists.txt */,
+			);
+			name = GLAD;
+			sourceTree = "<group>";
+		};
+		CD81669FB6FD489FA487AFB3 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		DA0E15710929414AA5683983 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				3923EF45360848A8AE7BC9E7 /* glad.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		DFFF14650D3B49FF89902737 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A4B0B6ABADA43E9A3C4731C /* Engine */,
+				665EBFF9071C434F80910D9E /* libGLAD.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37D9E776A0B6401D80066950 /* GLAD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B4A69DF72054D4680D990F4 /* Build configuration list for PBXNativeTarget "GLAD" */;
+			buildPhases = (
+				51341B548E124434A047CF63 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88A06A2CAB934E7F9663522C /* PBXTargetDependency */,
+			);
+			name = GLAD;
+			productName = GLAD;
+			productReference = 665EBFF9071C434F80910D9E /* libGLAD.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		90A2C8F473094D9E9D986C62 /* Engine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4A1C5F0E18B4EBB9B67E85F /* Build configuration list for PBXNativeTarget "Engine" */;
+			buildPhases = (
+				3083E5E96D154709A573996A /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36645A59DDC244D5B0E32C89 /* PBXTargetDependency */,
+				A6BE99E1C90B458DAB088677 /* PBXTargetDependency */,
+			);
+			name = Engine;
+			productName = Engine;
+			productReference = 1A4B0B6ABADA43E9A3C4731C /* Engine */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D354311403514FD9885260DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1130;
+			};
+			buildConfigurationList = E6B269B69FEF4EB4899A06A4 /* Build configuration list for PBXProject "TestOpenGL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 354216E2AF2B480486DB826D;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				0DFB92E4C3524E1392BF29B5 /* ALL_BUILD */,
+				90A2C8F473094D9E9D986C62 /* Engine */,
+				37D9E776A0B6401D80066950 /* GLAD */,
+				628BC32B960A490C9ECA3CCB /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		85DBAB1E732347C0BD5C5C22 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/Xcode -f /Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/Xcode/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		EC402A6678CC4A959358ECE5 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/Xcode -f /Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/Xcode/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3083E5E96D154709A573996A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AD3754046C1444E962CACF3 /* basicMaterial.cpp in Sources */,
+				74BEBA3C49884B83BCCB10C9 /* camera.cpp in Sources */,
+				492FDBBB4FD140BF89DFDAD2 /* clock.cpp in Sources */,
+				04F7ED82B0244F5DB2C7F32E /* engine.cpp in Sources */,
+				53E5701C1FD94C5A93B3F972 /* entity.cpp in Sources */,
+				377DD42A232B489D85D696F9 /* entityRenderer.cpp in Sources */,
+				E0D358B2503E476181D94B03 /* game.cpp in Sources */,
+				461A56E6E5FB40BAA132CD0B /* gameLoop.cpp in Sources */,
+				E626A7877DDA4DE1A97A0774 /* light.cpp in Sources */,
+				DD61A84F88D1421CBE789B18 /* manager.cpp in Sources */,
+				DDD42E1391C2440C8CC590F6 /* material.cpp in Sources */,
+				5A5D434723B386D0007FBF0A /* Application.cpp in Sources */,
+				C27D592D15FA43C1A917027E /* math_inc.cpp in Sources */,
+				78834F2D1F114D9F892E7159 /* mesh.cpp in Sources */,
+				B61A853A92044C9D87D38E17 /* node.cpp in Sources */,
+				15748DB5959C40A88F0ADBC1 /* platform.cpp in Sources */,
+				492214952AE1452EBAF96EAA /* profiler.cpp in Sources */,
+				F6CC536D9F58455E936F410C /* quadTree.cpp in Sources */,
+				9AC4BE95C20D4724859C4CCE /* renderer.cpp in Sources */,
+				56B552D97D7A4B38950CA05B /* resoucemanager.cpp in Sources */,
+				964C8BB6A2E24F5ABE68A4AA /* scene.cpp in Sources */,
+				3E53D23E254745CB89B5C056 /* sceneManager.cpp in Sources */,
+				48F9FBEEABE94C87B694A4C5 /* shader.cpp in Sources */,
+				51D715B11F7F4A028E448C6A /* shaderManager.cpp in Sources */,
+				41AEE416353E4578BB7B5E26 /* texture.cpp in Sources */,
+				3F2974F95A704EDF826B29C1 /* timer.cpp in Sources */,
+				953F2CF673704B0EB39ED735 /* hello_triangle.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51341B548E124434A047CF63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D69D15ACB4347DD80DBEB21 /* glad.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36645A59DDC244D5B0E32C89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 628BC32B960A490C9ECA3CCB /* ZERO_CHECK */;
+			targetProxy = 794E85711D164014A4E269D6 /* PBXContainerItemProxy */;
+		};
+		38932FA581094C9B84FDF067 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37D9E776A0B6401D80066950 /* GLAD */;
+			targetProxy = 7C919E1B3E6A4AF49FC9DF1C /* PBXContainerItemProxy */;
+		};
+		88A06A2CAB934E7F9663522C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 628BC32B960A490C9ECA3CCB /* ZERO_CHECK */;
+			targetProxy = 1FD254CB537E470F92BCB956 /* PBXContainerItemProxy */;
+		};
+		A5910EA32A3B4874AC59E87C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90A2C8F473094D9E9D986C62 /* Engine */;
+			targetProxy = 29167AB132574195839995DC /* PBXContainerItemProxy */;
+		};
+		A6BE99E1C90B458DAB088677 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37D9E776A0B6401D80066950 /* GLAD */;
+			targetProxy = 4332E0E392AB4F3FA1F6BD53 /* PBXContainerItemProxy */;
+		};
+		E364063BA8E44298992C6E55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 628BC32B960A490C9ECA3CCB /* ZERO_CHECK */;
+			targetProxy = 4C540B8A6B8144739E58A293 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25DB6FA8F5A44C8BA859895D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/Xcode/build";
+			};
+			name = Debug;
+		};
+		3178710DD0CB468D8F88EEE9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/System/Library/Frameworks,
+					"/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/Xcode/configuration",
+					"/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/includes",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = GLAD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/Xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		664CA2CFA673413DB0F42DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/Xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		681E288EB87C4BBE9F6BFFCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/Xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		711C0E26D12B4A06AC6BF92E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/System/Library/Frameworks,
+					"/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/Xcode/configuration",
+					"/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/includes",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = GLAD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/Xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		76B96AEB3AAD4E1EB76F3CD6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/Xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		7BD9BB7FAB444087A602E381 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/Xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		8E9602ECF61845AFA5CBB3A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/Xcode/build";
+			};
+			name = Release;
+		};
+		9370A1D9DC4B4739BE0E539A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/Xcode/build";
+			};
+			name = MinSizeRel;
+		};
+		948DBCA4E54B46B5934B622E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/Xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		98516D484315420E8122FEDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/Xcode/bin";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/System/Library/Frameworks,
+					"/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/Xcode/configuration",
+					"/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/includes",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/lib";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/lib",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-std=c++11",
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-framework",
+					Cocoa,
+					"-framework",
+					IOKit,
+					"-framework",
+					OpenGL,
+					"-framework",
+					CoreVideo,
+					/usr/local/lib/libglfw.dylib,
+					"/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/Xcode/Release/libGLAD.a",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Engine;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/Xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		98C4E064EC4C407E83DFAE04 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/Xcode/bin/MinSizeRel";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/System/Library/Frameworks,
+					"/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/Xcode/configuration",
+					"/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/includes",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/lib";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/lib",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-std=c++11",
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-framework",
+					Cocoa,
+					"-framework",
+					IOKit,
+					"-framework",
+					OpenGL,
+					"-framework",
+					CoreVideo,
+					/usr/local/lib/libglfw.dylib,
+					"/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/Xcode/MinSizeRel/libGLAD.a",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Engine;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/Xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		AD951247AF194483926525AE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/Xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		B21A262A6F414EFB919CAD36 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/System/Library/Frameworks,
+					"/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/Xcode/configuration",
+					"/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/includes",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = GLAD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/Xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		B2506A47CA0F490585FF8477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/System/Library/Frameworks,
+					"/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/Xcode/configuration",
+					"/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/includes",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = GLAD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/Xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		C468CD4B82B34C058D391EA6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/Xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		C8662B78629C4D1E8C4D8063 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/Xcode/bin/RelWithDebInfo";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/System/Library/Frameworks,
+					"/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/Xcode/configuration",
+					"/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/includes",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/lib";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/lib",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-std=c++11",
+					"-DNDEBUG",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-framework",
+					Cocoa,
+					"-framework",
+					IOKit,
+					"-framework",
+					OpenGL,
+					"-framework",
+					CoreVideo,
+					/usr/local/lib/libglfw.dylib,
+					"/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/Xcode/RelWithDebInfo/libGLAD.a",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Engine;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/Xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		DB22FE89FAFC4B649AA9C7F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/Xcode/bin";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/System/Library/Frameworks,
+					"/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/Xcode/configuration",
+					"/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/includes",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/lib";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/lib",
+				);
+				OTHER_CPLUSPLUSFLAGS = "-std=c++11     ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-framework",
+					Cocoa,
+					"-framework",
+					IOKit,
+					"-framework",
+					OpenGL,
+					"-framework",
+					CoreVideo,
+					/usr/local/lib/libglfw.dylib,
+					"/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/Xcode/Debug/libGLAD.a",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Engine;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/Xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		E8AAD0FCC92A40F3B4CC5B79 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/Xcode/build";
+			};
+			name = RelWithDebInfo;
+		};
+		EE9BD7B1E2CC4D9790068983 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/Xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A10FB7B14264A7F96FC652F /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE9BD7B1E2CC4D9790068983 /* Debug */,
+				664CA2CFA673413DB0F42DA8 /* Release */,
+				C468CD4B82B34C058D391EA6 /* MinSizeRel */,
+				AD951247AF194483926525AE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3B4A69DF72054D4680D990F4 /* Build configuration list for PBXNativeTarget "GLAD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				711C0E26D12B4A06AC6BF92E /* Debug */,
+				B2506A47CA0F490585FF8477 /* Release */,
+				B21A262A6F414EFB919CAD36 /* MinSizeRel */,
+				3178710DD0CB468D8F88EEE9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		727872C3AB724A7CB27BAA1B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				948DBCA4E54B46B5934B622E /* Debug */,
+				681E288EB87C4BBE9F6BFFCB /* Release */,
+				7BD9BB7FAB444087A602E381 /* MinSizeRel */,
+				76B96AEB3AAD4E1EB76F3CD6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E6B269B69FEF4EB4899A06A4 /* Build configuration list for PBXProject "TestOpenGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25DB6FA8F5A44C8BA859895D /* Debug */,
+				8E9602ECF61845AFA5CBB3A0 /* Release */,
+				9370A1D9DC4B4739BE0E539A /* MinSizeRel */,
+				E8AAD0FCC92A40F3B4CC5B79 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F4A1C5F0E18B4EBB9B67E85F /* Build configuration list for PBXNativeTarget "Engine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB22FE89FAFC4B649AA9C7F7 /* Debug */,
+				98516D484315420E8122FEDD /* Release */,
+				98C4E064EC4C407E83DFAE04 /* MinSizeRel */,
+				C8662B78629C4D1E8C4D8063 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D354311403514FD9885260DD /* Project object */;
+}

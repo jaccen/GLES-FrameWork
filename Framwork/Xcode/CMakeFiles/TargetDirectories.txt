@@ -1,0 +1,4 @@
+/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/Xcode/CMakeFiles/Engine.dir
+/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/Xcode/CMakeFiles/GLAD.dir
+/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/Xcode/CMakeFiles/ALL_BUILD.dir
+/Users/jaccen/Desktop/Engine/GLES-FrameWork/Framwork/Xcode/CMakeFiles/ZERO_CHECK.dir
